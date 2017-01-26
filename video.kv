@@ -1,10 +1,10 @@
-#:set _default_video "https://r4---sn-gpv7enek.googlevideo.com/videoplayback?id=3c66abd70d824eca&itag=18&source=picasa&begin=0&requiressl=yes&mm=30&mn=sn-gpv7enek&ms=nxu&mv=m&nh=IgpwcjAzLnJpbzAxKhgyMDAxOjQ4NjA6MToxOjA6MWUzYTowOjE&pl=36&sc=yes&mime=video/mp4&lmt=1443168749462780&mt=1485398536&ip=2804:d41:18d8:5500:b4fb:4845:83cd:ebc4&ipbits=48&expire=1485427401&sparams=ip,ipbits,expire,id,itag,source,requiressl,mm,mn,ms,mv,nh,pl,sc,mime,lmt&signature=B07FF5785B133107FB925EED180ED04CFF8F5537.51062A367DE9F7E05703E1847330132CA81F8990&key=ck2"
+#:import get_video_src playlist.get_video_src
 #:set _default_image "battle_of_vassouras.jpg"
 
 <Video>:
     allow_strech: True
     color: 0, 0, 0, 0
-    source: _default_video
+    source: get_video_src()
     cover: _cover
     image: _default_image
 
