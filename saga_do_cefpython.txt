@@ -1,0 +1,19 @@
+Fui tentar usar o cefpython, para criar um widget de browser pra exibir os videos do bivis que tem naquele site. Mas não consegui nem com reza braba.
+
+Tentei executar o exemplo de kivy do cefpython:
+https://github.com/cztomczak/cefpython/wiki/Kivy
+
+Tentei usar o fork atualizado do wigdet cefpython do garden:
+https://github.com/allestuetsmerweh/garden.cefpython
+
+Vi que o widget usava a versão 31.2, então instalei ela:
+https://github.com/cztomczak/cefpython/releases/tag/v31.2
+
+Depois descobri que é um bug no CEF.
+
+http://magpcss.org/ceforum/viewtopic.php?f=6&t=14596
+https://bitbucket.org/chromiumembedded/cef/issues/2014/remove-gtk-and-gdk-dependencies-introduced
+
+Tem um issue no cefpython sobre esse bug:
+
+https://github.com/cztomczak/cefpython/issues/261
