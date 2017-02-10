@@ -17,3 +17,11 @@ https://bitbucket.org/chromiumembedded/cef/issues/2014/remove-gtk-and-gdk-depend
 Tem um issue no cefpython sobre esse bug:
 
 https://github.com/cztomczak/cefpython/issues/261
+
+---
+
+e ainda tive mó caô pra instalar o pygtk. comecei usando um script que instala:
+https://gist.github.com/mehcode/6172694
+
+e tive que fazer alguns links simbólicos da pasta de instalados do python no sistema para a pasta do virtualenv. No fim, rolou, mas começou a aparecer a msg de erro do Gtk, que depois descobrir ser o bug descrito acima:
+Gtk-ERROR **: GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported
